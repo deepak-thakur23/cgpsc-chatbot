@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --cgb-900: #0b3b66;
+  --cgb-700: #0f5a8a;
+  --cgb-500: #1976b2;
+  --accent: #00bcd4;
+}
+
+.container {
+  @apply max-w-6xl mx-auto px-4
+}
+
+.card {
+  @apply bg-white p-4 rounded-xl-2 shadow-sm border
+}
+
+.nav-link {
+  @apply px-3 py-1 rounded-md font-semibold text-white;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+.btn-primary {
+  @apply bg-cgb-500 text-white px-4 py-2 rounded-lg font-semibold shadow-md
+}
+
+@media (max-width:640px) {
+  .hero-grid {
+    grid-template-columns: 1fr
+  }
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(120%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in {
+  animation: slide-in 0.4s ease-out;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
