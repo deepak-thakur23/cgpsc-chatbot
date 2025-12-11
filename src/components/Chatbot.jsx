@@ -71,9 +71,9 @@ const faqs = [
   },
   {
     id: 6,
-    q: "Does any need to send a copy of application to CGPSC after submit ?",
+    q: "Do I need to send a copy of my application to CGPSC after submission?",
     a: `
-     ➡️The entire process of applying is online, hence there is no need to send any kind of document in the online application.<br/>
+     ➡️Since the entire application process is conducted online, you do not need to send any physical documents after submitting your application.<br/>
     `,
   },
   {
@@ -180,7 +180,7 @@ const faqs = [
   },
   {
     id: 14,
-    q: "Education Qulification related query?",
+    q: "Education Qualification related query?",
     a: `
       ➡️Kindly see Education Qualification section of related advertisment. 
       <br/><br/>
