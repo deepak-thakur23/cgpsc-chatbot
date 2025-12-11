@@ -1,10 +1,10 @@
 // src/services/api.js
 
-// Universal base URL (supports Vite and CRA)
+// Universal base URL (supports Vite and CRA),  "http://localhost:3000" ||
 const API_BASE =
   (typeof import.meta !== "undefined" && import.meta.env && import.meta.env.VITE_API_URL) ||
   (typeof process !== "undefined" && process.env && process.env.REACT_APP_API_URL) ||
-  "http://localhost:3000" || "https://web-production-fce96.up.railway.app";
+  "https://web-production-fce96.up.railway.app";
 
 // ---- Auth ----
 export async function login(inputType, username, password) {
