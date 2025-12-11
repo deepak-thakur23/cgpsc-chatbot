@@ -1,5 +1,5 @@
 // src/services/adminApi.js,"http://localhost:3000" ||
-const API_BASE = (import.meta.env?.VITE_API_URL) || "https://web-production-fce96.up.railway.app";
+const API_BASE = "https://web-production-fce96.up.railway.app" || (import.meta.env?.VITE_API_URL);
 
 function authHeaders(token) {
     return {
