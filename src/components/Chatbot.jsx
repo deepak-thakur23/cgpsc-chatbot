@@ -24,6 +24,15 @@ const faqs = {
     },
     {
       id: 2,
+      q: "ऑनलाइन आवेदन में फोटो तथा हस्ताक्षर अपलोड करने हेतु jpg फाइल की साइज क्या होती है ? ",
+      a: `
+      ➡️ ऑनलाइन आवेदन करने के दौरान अभ्यर्थी को अपना फोटो और हस्ताक्षर अपलोड करना होता है|<br>
+      ➡️ फोटो तथा हस्ताक्षर jpg फाइल के फॉर्मेट में तैयार करना होता है जिसके साइज अधिकतम 100KB तक होनी चाहिए |<br/>
+      ➡️ अधिक जानकारी के लिए विज्ञापन के परिशिष्ट-4 "ऑनलाइन आवेदन करने के संबंध में निर्देश एवं जानकारी" के निर्देशों का पालन करें |
+    `,
+    },
+    {
+      id: 3,
       q: "मैं पासवर्ड भूल गया/गई हूँ। इसे कैसे रीसेट करूँ?",
       a: `
       ➡️ आप लॉगिन पेज पर उपलब्ध "Forgot Password" विकल्प से पासवर्ड रीसेट कर सकते हैं:<br/>
@@ -34,7 +43,7 @@ const faqs = {
     `,
     },
     {
-      id: 3,
+      id: 4,
       q: "नवीनतम CGPSC नोटिफिकेशन और विज्ञापन कहाँ देख सकते हैं?",
       a: `
       ➡️ सभी नवीनतम नोटिफिकेशन, विज्ञापन और सूचनाएँ यहाँ उपलब्ध हैं:<br/>
@@ -45,7 +54,7 @@ const faqs = {
     `,
     },
     {
-      id: 4,
+      id: 5,
       q: "मेरी प्रवेश-पत्र / एडमिट कार्ड कैसे डाउनलोड करूँ?",
       a: `
       प्रवेश-पत्र परीक्षा से कुछ दिन पहले ऑनलाइन पोर्टल पर उपलब्ध होता है।<br/><br/>
@@ -58,7 +67,7 @@ const faqs = {
     `,
     },
     {
-      id: 5,
+      id: 6,
       q: "भरे हुए आवेदन में सुधार की प्रक्रिया क्या है?",
       a: `
       ➡️ आवेदन में निःशुल्क सुधार निर्धारित तिथि में केवल एक बार किया जा सकता है।<br/>
@@ -72,14 +81,14 @@ const faqs = {
     `,
     },
     {
-      id: 6,
+      id: 7,
       q: "क्या आवेदन सबमिट करने के बाद CGPSC को उसकी कॉपी भेजने की आवश्यकता है?",
       a: `
       ➡️ पूरी आवेदन प्रक्रिया ऑनलाइन है, इसलिए आवेदन सबमिट करने के बाद किसी भी प्रकार का दस्तावेज़ भेजने की आवश्यकता नहीं है।
     `,
     },
     {
-      id: 7,
+      id: 8,
       q: "ऑनलाइन आवेदन शुल्क कितना है?",
       a: `
      ➡️ छत्तीसगढ़ के SC/ST/OBC उम्मीदवारों हेतु – ₹300 + पोर्टल शुल्क + GST<br/>
@@ -88,7 +97,7 @@ const faqs = {
     `,
     },
     {
-      id: 8,
+      id: 9,
       q: "मॉडल आंसर, सिलेबस, परिणाम और नवीनतम नोटिफिकेशन कहाँ देखें?",
       a: `
       ➡️ मॉडल आंसर यहाँ उपलब्ध हैं:<br/>
@@ -102,7 +111,7 @@ const faqs = {
     },
 
     {
-      id: 9,
+      id: 10,
       q: "पद या आरक्षण से संबंधित प्रश्न?",
       a: `
       ➡️ विभाग द्वारा आयोग को भेजे गए अधियाचन (Indent) के आधार पर पद एवं आरक्षण निर्धारित किया जाता है।<br/><br/>
@@ -111,7 +120,7 @@ const faqs = {
     },
 
     {
-      id: 10,
+      id: 11,
       q: "दो परीक्षाएँ एक ही दिन होने पर क्या किया जाए?",
       a: `
       ➡️ परीक्षा आयोजन से संबंधित सभी प्रक्रियाएँ पूर्ण हो चुकी हैं। अब किसी परिवर्तन की संभावना नहीं है।<br/><br/>
@@ -120,7 +129,7 @@ const faqs = {
     },
 
     {
-      id: 11,
+      id: 12,
       q: "मेरे आवेदन पंजीकरण का SMS क्यों नहीं आया?",
       a: `
       ➡️ SMS भेजना एक स्वचालित प्रक्रिया है। यदि SMS नहीं आता है तो संभवतः आपके मोबाइल में DND सेवा सक्रिय है।<br/><br/>
@@ -129,7 +138,7 @@ const faqs = {
     },
 
     {
-      id: 12,
+      id: 13,
       q: "पेज खुलने में समय लग रहा है, क्या करें?",
       a: `
       ➡️ इंटरनेट स्पीड, सर्वर लोड आदि कारणों से पेज खुलने में देरी हो सकती है।<br/>
@@ -139,10 +148,10 @@ const faqs = {
     },
 
     {
-      id: 13,
-      q: "समस्या लिखते समय मुझे कौन-कौन सी जानकारी देनी चाहिए?",
+      id: 14,
+      q: "पत्राचार करते समय मुझे कौन-कौन सी जानकारी CGPSC को देनी चाहिए?",
       a: `
-      ➡️ कृपया निम्न विवरण अवश्य लिखें:<br/>
+      ➡️ कृपया अपने आवेदन में निम्न विवरण अवश्य लिखें:<br/>
       1) पंजीकरण संख्या<br/>
       2) रोल नंबर<br/>
       3) परीक्षा का नाम व वर्ष<br/>
@@ -153,7 +162,7 @@ const faqs = {
     },
 
     {
-      id: 14,
+      id: 15,
       q: "यदि मैंने शुल्क जमा कर दिया है लेकिन पोर्टल में 'Fee Not Paid' दिखा रहा है तो?",
       a: `
       ➡️ एक बार दिया गया शुल्क पुनः नहीं देना चाहिए।<br/>
@@ -164,7 +173,7 @@ const faqs = {
     },
 
     {
-      id: 15,
+      id: 16,
       q: "NOC (No Objection Certificate) से संबंधित जानकारी?",
       a: `
       ➡️ सरकारी नौकरी, PSU, यूनिवर्सिटी या स्वायत्त संस्थानों में कार्यरत उम्मीदवारों के लिए NOC आवश्यक है।<br/>
@@ -174,7 +183,7 @@ const faqs = {
     },
 
     {
-      id: 16,
+      id: 17,
       q: "अनुभव प्रमाणपत्र से संबंधित जानकारी?",
       a: `
       ➡️ अनुभव आवश्यक होने पर प्रमाणपत्र दस्तावेज़ सत्यापन के समय उपलब्ध होना चाहिए।<br/>
@@ -188,7 +197,7 @@ const faqs = {
     },
 
     {
-      id: 17,
+      id: 18,
       q: "शैक्षणिक योग्यता से संबंधित प्रश्न?",
       a: `
       ➡️ कृपया संबंधित विज्ञापन में शैक्षणिक योग्यता अनुभाग देखें।<br/><br/>
@@ -197,7 +206,7 @@ const faqs = {
     },
 
     {
-      id: 18,
+      id: 19,
       q: "CGPSC परीक्षा के लिए आयु सीमा क्या है?",
       a: `
       ➡️ सामान्य आयु सीमा 21–30 वर्ष है।<br/>
@@ -207,27 +216,33 @@ const faqs = {
     },
 
     {
-      id: 19,
+      id: 20,
       q: "क्या अंतिम वर्ष के विद्यार्थी आवेदन कर सकते हैं?",
       a: `
       ➡️ यह परीक्षा के अनुसार भिन्न हो सकता है। संबंधित विज्ञापन में दिए गए निर्देश देखें:<br/>
       <a href="https://psc.cg.gov.in/htm/Advertisement%20-%20Latest.htm" class="text-blue-600 underline">CGPSC Website</a>
     `,
     },
-
     {
-      id: 20,
+      id: 21,
+      q: "दिव्यांग अभ्यर्थी के लिए कितने प्रतिशत विकलांगता, विकलांग श्रेणी में चयन हेतु मान्य किये जाते है |",
+      a: `
+      ➡️ दिव्यांग अभ्यर्थी के लिए 40% या इससे अधिक प्रतिशत विकलांगता ही विकलांग श्रेणी में चयन हेतु मान्य किये जाते है | <br/>
+    `,
+    },
+    {
+      id: 22,
       q: "न्यूनतम योग्यता अंक क्या है?",
       a: `
       ➡️ यह वह न्यूनतम अंक हैं जिनके बिना उम्मीदवार सफल नहीं माना जाएगा।<br/>
-      सामान्य वर्ग: 33%<br/>
-      आरक्षित एवं दिव्यांग वर्ग: 23%<br/>
+      ➡️सामान्य वर्ग: 33%<br/>
+      ➡️आरक्षित एवं दिव्यांग वर्ग: 23%<br/>
       कटऑफ केवल उन्हीं उम्मीदवारों के लिए निर्धारित किया जाता है जो न्यूनतम योग्यतानक प्राप्त करते हैं।<br/>
     `,
     },
 
     {
-      id: 21,
+      id: 23,
       q: "क्या CGPSC परीक्षाओं में नकारात्मक अंकन (Negative Marking) है?",
       a: `
       ➡️ हाँ, सभी वस्तुनिष्ठ परीक्षाओं में गलत उत्तर पर निर्धारित अंक का 1/3 भाग काटा जाता है।<br/>
@@ -235,7 +250,7 @@ const faqs = {
     },
 
     {
-      id: 22,
+      id: 24,
       q: "CGPSC में RTI कैसे लगाएँ?",
       a: `
       1️⃣ आवेदन तैयार करें—नाम, पता, विवरण स्पष्ट लिखें।<br/>
@@ -246,7 +261,7 @@ const faqs = {
     },
 
     {
-      id: 23,
+      id: 25,
       q: "CGPSC से तकनीकी समस्या या आवेदन संबंधी सहायता कहाँ मिलेगी?",
       a: `
       ➡️ तकनीकी समस्याओं हेतु:<br/>
@@ -280,6 +295,16 @@ const faqs = {
     },
     {
       id: 2,
+      q: "What is the required JPG file size for uploading photo and signature in the online application?",
+      a: `
+    ➡️ During the online application process, the candidate must upload their photograph and signature. <br>
+    ➡️ The photo and signature must be prepared in JPG format, and the maximum file size allowed is **100 KB**. <br/>
+    ➡️ For more details, please follow the instructions given in Annexure–4 of the advertisement, titled “ऑनलाइन आवेदन करने के संबंध में निर्देश एवं जानकारी”. 
+  `,
+    },
+
+    {
+      id: 3,
       q: "I forgot my password. How can I reset it?",
       a: `
       ➡️You can reset your password using the "Forgot Password" option on the login page:<br/>
@@ -290,7 +315,7 @@ const faqs = {
     `,
     },
     {
-      id: 3,
+      id: 4,
       q: "Where can I see latest CGPSC notifications and advertisements?",
       a: `
       ➡️All latest notifications, advertisements, and notices are published on:<br/>
@@ -301,7 +326,7 @@ const faqs = {
     `,
     },
     {
-      id: 4,
+      id: 5,
       q: "How do I download my admit card / hall ticket?",
       a: `
       Admit cards are generally available on the online portal a few days before the exam.<br/><br/>
@@ -314,7 +339,7 @@ const faqs = {
     `,
     },
     {
-      id: 5,
+      id: 6,
       q: "What is the process for editing of filled application?",
       a: `
       ➡️Correction/Editing on online application can be done in the stipulated days free of cost only once, after the last date of application .<br/>
@@ -328,14 +353,14 @@ const faqs = {
     `,
     },
     {
-      id: 6,
+      id: 7,
       q: "Do I need to send a copy of my application to CGPSC after submission?",
       a: `
      ➡️Since the entire application process is conducted online, you do not need to send any physical documents after submitting your application.<br/>
     `,
     },
     {
-      id: 7,
+      id: 8,
       q: "Fees for Online application?",
       a: `
      ➡️For domicile Chhattisgarh ST,SC,OBC candidates -> 300/- +Portal charge + GST<br/>
@@ -344,7 +369,7 @@ const faqs = {
     `,
     },
     {
-      id: 8,
+      id: 9,
       q: "Where can I see Model Answers, Syllabus, Results, Latest Notification?",
       a: `
       ➡️For Model Answer you can find here.<br/>
@@ -366,7 +391,7 @@ const faqs = {
     `,
     },
     {
-      id: 9,
+      id: 10,
       q: "Post or Reservation related query?",
       a: `
       ➡️Advertisements are published by the Commission on the basis of the indents sent to the Commission by the concerned department. 
@@ -376,7 +401,7 @@ const faqs = {
     `,
     },
     {
-      id: 10,
+      id: 11,
       q: "Two exam same date related query?",
       a: `
       ➡️All procedures for conducting the examination have been completed. There is no possibility of any change in this now..  
@@ -385,7 +410,7 @@ const faqs = {
     `,
     },
     {
-      id: 11,
+      id: 12,
       q: " I did not receive the SMS intimation for registration of my application?",
       a: `
       ➡️SMS sending is a automate process done by system, if you are not getting its due to DND service active in your mobile by service provider.
@@ -394,7 +419,7 @@ const faqs = {
     `,
     },
     {
-      id: 12,
+      id: 13,
       q: "What should I do if there is lot of delay in accessing the page?",
       a: `
       ➡️Speed for Registration of On-Line Application on Internet, is based on various factors like Internet Speed, large number of applicants trying to register the application at the same time etc. Therefore if you are not able to get the pages for registration immediately, please retry after a gap of 15 minutes or during off-peak hours at night..
@@ -403,8 +428,8 @@ const faqs = {
     `,
     },
     {
-      id: 13,
-      q: "What details should I provide while writing for the problem?",
+      id: 14,
+      q: "What details should I provide while Correspondence to CGPSC?",
       a: `
       ➡️Please do not forget to provide following details while writing to us: (1) REGISTRATION NO. (2) ROLL NUMBER (3) NAME OF EXAM WITH YEAR (4) DATE OF BIRTH & (5) FULL NAME as entered in application.
       <br/><br/>
@@ -412,7 +437,7 @@ const faqs = {
     `,
     },
     {
-      id: 14,
+      id: 15,
       q: "What if I have paid and it still shows 'Application fee not paid?",
       a: `
       ➡️FEES ONCE PAID SHOULD NOT BE PAID AGAIN.Kindly wait for few days for it to reflect on your portal or contact HELPDESK (ecgpsconline@gmail.com, 📞7987283093, 8602744927) for clarification on payment.
@@ -421,7 +446,7 @@ const faqs = {
     `,
     },
     {
-      id: 15,
+      id: 16,
       q: "No Objection Certificate (NOC) related query?",
       a: `
       <h2>No Objection Certificate (NOC)</h2><br/>
@@ -432,7 +457,7 @@ const faqs = {
     `,
     },
     {
-      id: 16,
+      id: 17,
       q: "Experience Certificate related query?",
       a: `The requirement for an experience certificate is job-specific. <br/>
         ➡️If experience is required: You must possess a valid experience certificate at the time of document verification (DV). The certificate should be in the format specified by the commission, detailing the duration of service, designation, nature of work, and the issuing authority's seal.<br/>
@@ -446,7 +471,7 @@ const faqs = {
       `,
     },
     {
-      id: 17,
+      id: 18,
       q: "Education Qualification related query?",
       a: `
       ➡️Kindly see Education Qualification section of related advertisment. 
@@ -455,7 +480,7 @@ const faqs = {
     `,
     },
     {
-      id: 18,
+      id: 19,
       q: "What is the age limit for the CGPSC exam?",
       a: `
       ➡️Candidates must generally be between 21 and 30 years of age. However, residents and domiciles of Chhattisgarh are eligible for an upper age limit relaxation of up to 35 years. Age relaxation is also provided for various reserved categories and other scenarios as per government norms.<br/>
@@ -463,8 +488,9 @@ const faqs = {
       Check the "Advertisements" and "Notifications" sections regularly for updates.
     `,
     },
+
     {
-      id: 19,
+      id: 20,
       q: "Can a final year student apply for the CGPSC exam?",
       a: `
       ➡️Specific rules apply to final year students; candidates should check the official notification on the <a href="https://psc.cg.gov.in/htm/Advertisement%20-%20Latest.htm" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline">CGPSC website </a> for the most current guidelines regarding eligibility during the application period.<br/>
@@ -473,7 +499,14 @@ const faqs = {
     `,
     },
     {
-      id: 20,
+      id: 21,
+      q: "What percentage of disability is required for a candidate to be considered under the Persons with Disabilities (PH) category? ",
+      a: `
+    ➡️ Only candidates with **40% or more disability** are considered eligible under the PH category for selection. <br/>
+  `,
+    },
+    {
+      id: 22,
       q: "What is the 'minimum qualifying marks' (qualifying marks)?",
       a: `
       ➡️'Minimum qualifying marks' means the minimum marks without which a candidate cannot be successful in the examination. CGPSC In this examination, it will be mandatory for unreserved category candidates to get a minimum of 33% qualifying marks and reserved category and disabled category candidates to get a minimum of 23% qualifying marks in each paper. The cut-off is determined for the candidates who obtain the 'minimum qualifying marks. The candidates who obtain the cut-off marks or more are declared successful and the remaining unsuccessful.<br/>
@@ -482,7 +515,7 @@ const faqs = {
     `,
     },
     {
-      id: 21,
+      id: 23,
       q: "Is there negative marking in the CGPSC examinations?",
       a: `
       ➡️Yes, there is a provision for negative marking in the all objective type examinations. For every incorrect answer, 1/3rd of the marks assigned to the correct answer will be deducted.<br/>
@@ -491,7 +524,7 @@ const faqs = {
     `,
     },
     {
-      id: 22,
+      id: 24,
       q: "How to apply RTI in CGPSC?",
       a: `
       1️⃣Draft Application: Write your request clearly in English or Hindi, stating you are an Indian Citizen. Include your full name, address, contact details, and sign it.<br/>
@@ -503,7 +536,7 @@ const faqs = {
     `,
     },
     {
-      id: 23,
+      id: 25,
       q: "Where can I contact CGPSC for technical or application related issues?",
       a: `
      ➡️For technical problems (login, OTP, payment etc.) use the help/contact details given on the online portal:<br/>

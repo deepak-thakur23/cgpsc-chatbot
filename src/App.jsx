@@ -14,7 +14,7 @@ import RTI from './pages/RTI'
 import Services from './pages/Services'
 import Tenders from './pages/Tenders'
 import Contact from './pages/Contact'
-import FAQ from './pages/FAQ'
+// import FAQ from './pages/FAQ'
 import Login from './pages/Login'
 import AdminDashboard from "./pages/AdminDashboard";
 import UserDashboard from "./pages/UserDashboard";
