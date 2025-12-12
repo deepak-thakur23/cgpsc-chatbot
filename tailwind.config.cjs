@@ -19,7 +19,11 @@ module.exports = {
       borderRadius: {
         'xl-2': '12px'
       }
-    }
+    },
+    container: {
+      center: true,
+      padding: "1rem",
+    },
   },
   plugins: [],
 }

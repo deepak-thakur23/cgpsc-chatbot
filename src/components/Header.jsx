@@ -28,9 +28,9 @@ export default function Header() {
         </div>
 
         <div className="hidden md:flex items-center gap-3">
-          <div className="text-sm">Helpline: <strong>+91-771-XXXXXXX</strong></div>
+          {/* <div className="text-sm">Helpline: <strong>+91-771-XXXXXXX</strong></div>
 
-          <Link to="/contact" className="btn-primary">Contact</Link>
+          <Link to="/contact" className="btn-primary">Contact</Link> */}
           {!token && (
             <Link
               to="/login"
@@ -68,7 +68,7 @@ export default function Header() {
       </div>
 
       <nav className="bg-transparent">
-        <div className="container flex gap-2 py-3 overflow-x-auto">
+        <div className="container flex gap-2 py-3 scrollbar-none">
           {token && jwtPayload.isAdmin && (
             <NavItem to="/admin">Deshboard</NavItem>
           )}
