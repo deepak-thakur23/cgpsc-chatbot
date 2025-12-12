@@ -30,7 +30,7 @@ export default function Home() {
               </div>
               <div className="text-right">
                 <span className="inline-block bg-slate-100 text-slate-800 px-3 py-1 rounded-md">Official</span>
-                <div className="mt-3 text-sm text-slate-500">Portal updated: <strong>Dec 10, 2025</strong></div>
+                <div className="mt-3 text-sm text-slate-500">Portal updated: <strong>Dec 11, 2025</strong></div>
               </div>
             </div>
 
