@@ -226,9 +226,9 @@ const faqs = {
     },
     {
       id: 21,
-      q: "दिव्यांग अभ्यर्थी के लिए कितने प्रतिशत विकलांगता, विकलांग श्रेणी में चयन हेतु मान्य किये जाते है |",
+      q: "दिव्यांगजन अभ्यर्थी के लिए कितने प्रतिशत दिव्यांगता, दिव्यांग श्रेणी में चयन हेतु मान्य किये जाते है |",
       a: `
-      ➡️ दिव्यांग अभ्यर्थी के लिए 40% या इससे अधिक प्रतिशत विकलांगता ही विकलांग श्रेणी में चयन हेतु मान्य किये जाते है | <br/>
+      ➡️ दिव्यांगजन अभ्यर्थी के लिए 40% या इससे अधिक प्रतिशत दिव्यांगता ही दिव्यांग श्रेणी में चयन हेतु मान्य किये जाते है | <br/>
     `,
     },
     {
@@ -501,9 +501,9 @@ const faqs = {
     },
     {
       id: 21,
-      q: "What percentage of disability is required for a candidate to be considered under the Persons with Disabilities (PH) category? ",
+      q: "What percentage of disability is required for a candidate to be considered under the Persons with Disabilities (PwD) category? ",
       a: `
-    ➡️ Only candidates with **40% or more disability** are considered eligible under the PH category for selection. <br/>
+    ➡️ Only candidates with **40% or more disability** are considered eligible under the PwD category for selection. <br/>
   `,
     },
     {
@@ -661,7 +661,7 @@ export default function CgpscChatbot() {
 
               <div>
                 <p className="text-xs font-bold">{text[lang].title}</p>
-                <p className="text-[10px] text-gray-500">{text[lang].subtitle}</p>
+                <p className="text-[11px] text-gray-500">{text[lang].subtitle}</p>
               </div>
             </div>
 
@@ -695,7 +695,7 @@ export default function CgpscChatbot() {
                       onClick={() => handleQuestionClick(faq)}
                       className="w-full bg-white border border-blue-300 rounded-xl px-3 py-2 text-left hover:bg-blue-50 shadow-sm"
                     >
-                      <span className="text-[11px] text-blue-700">{faq.q}</span>
+                      <span className="text-[13px] text-blue-700">{faq.q}</span>
                     </button>
                   ))}
               </div>
@@ -707,7 +707,7 @@ export default function CgpscChatbot() {
                 <div className="bg-gray-50 border border-gray-200 rounded-2xl px-3 py-2">
                   <p className="text-xs font-semibold mb-1">{activeFaq.q}</p>
                   <div
-                    className="text-[11px] text-gray-700 leading-snug space-y-1"
+                    className="text-[13px] text-gray-700 leading-snug space-y-1"
                     dangerouslySetInnerHTML={{ __html: activeFaq.a }}
                   />
                 </div>
