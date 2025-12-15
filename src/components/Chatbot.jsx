@@ -1,5 +1,6 @@
 import { useState } from "react";
 import logo from '../assets/logo_cgpsc.png'
+import botAvatar from "../assets/chatbot_avatar1.png";
 const faqs = {
   hi: [
     {
@@ -614,13 +615,38 @@ export default function CgpscChatbot() {
 
   return (
     <>
-      {/* Floating button */}
-      <button
+      {/* Floating button <span className="text-2xl">💬</span>*/}
+      {/*<button
         type="button"
         onClick={() => setOpen((prev) => !prev)}
         className="fixed bottom-4 right-4 z-40 flex items-center justify-center w-14 h-14 rounded-full bg-cgb-500 text-white shadow-lg hover:bg-cgb-600 transition"
       >
-        <span className="text-2xl">💬</span>
+        <img
+          src={botAvatar}
+          alt="Chatbot Avatar"
+          className="w-10 h-10 rounded-full object-cover"
+        />
+
+      </button>*/}
+      <button
+        onClick={() => setOpen(!open)}
+        className="fixed bottom-4 right-4 z-50 w-16 h-16 rounded-full bg-cgb-500 shadow-xl 
+             hover:scale-105 transition flex justify-center items-center"
+      >
+        {/* <img
+          src={botAvatar}
+          alt="Chatbot Avatar"
+          className="w-12 h-12 object-cover rounded-full bg-white p-1 
+               animate-breath"
+        /> */}
+        <div className="relative">
+          <img src={botAvatar} className="w-12 h-12 rounded-full" />
+
+          {/* blinking layer */}
+          <div className="absolute inset-0 flex justify-center items-center">
+            <div className="w-8 h-8 bg-black/10 rounded-full animate-blink"></div>
+          </div>
+        </div>
       </button>
 
       {/* Chat panel */}

@@ -18,7 +18,23 @@ module.exports = {
       },
       borderRadius: {
         'xl-2': '12px'
-      }
+      },
+      //blinking avatar
+      keyframes: {
+        blink: {
+          '0%, 20%, 40%, 60%, 80%, 100%': { transform: 'scaleY(1)' },
+          '10%, 30%, 50%, 70%, 90%': { transform: 'scaleY(0.1)' },
+        },
+        breath: {
+          '0%, 100%': { opacity: '1' },
+          '50%': { opacity: '0.85' },
+        }
+      },
+      animation: {
+        blink: 'blink 3.2s infinite',
+        breath: 'breath 2.5s ease-in-out infinite',
+      },
+      //blinking avatar
     },
     container: {
       center: true,
